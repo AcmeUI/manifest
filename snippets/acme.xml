@@ -19,6 +19,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- frameworks -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="acme" />
+
   <!-- hardware -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="acme" >
     <!-- add guard for AOSP hardware/qcom dir -->

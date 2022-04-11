@@ -68,4 +68,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
   <remove-project name="device/ti/beagle-x15" />
 
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/base" />
+
 </manifest>
