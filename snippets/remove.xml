@@ -71,4 +71,10 @@
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />
 
+  <!-- hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+
 </manifest>
