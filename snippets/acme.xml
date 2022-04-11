@@ -26,6 +26,7 @@
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="acme" />
 
   <!-- hardware -->
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="acme" revision="taffy-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="acme" >
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
