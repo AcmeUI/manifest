@@ -19,6 +19,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- device -->
+  <project path="device/acme/sepolicy" name="android_device_acme_sepolicy" remote="acme" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="acme" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="acme" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="acme" />
+
   <!-- frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="acme" />
 
