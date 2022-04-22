@@ -31,6 +31,7 @@
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="acme" />
   <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="acme" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="acme" />
+  <project path="external/erofs-utils" name="android_external_erofs-utils" remote="acme" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="acme" />
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="acme" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="acme" />
