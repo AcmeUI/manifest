@@ -89,6 +89,9 @@
   <!-- prebuilts -->
   <project path="prebuilts/tools-acme" name="android_prebuilts_tools-acme" remote="acme" />
 
+  <!-- tools repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="acme" />
+
   <!-- vendor repos -->
   <project path="vendor/acme" name="android_vendor_acme" remote="acme" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="acme" />
