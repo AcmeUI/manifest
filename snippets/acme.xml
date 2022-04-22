@@ -66,6 +66,9 @@
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="acme" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="acme" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/tools-acme" name="android_prebuilts_tools-acme" remote="acme" />
+
   <!-- vendor repos -->
   <project path="vendor/acme" name="android_vendor_acme" remote="acme" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="acme" />
