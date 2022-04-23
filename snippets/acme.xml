@@ -5,6 +5,8 @@
   <remote name="acme" fetch="https://github.com/AcmeUI" revision="taffy" />
   <remote name="acme-gitlab" fetch="https://gitlab.com/AcmeUI" revision="taffy" />
 
+  <project path="bionic" name="android_bionic" groups="pdk" remote="acme" />
+
   <!-- build -->
   <project path="build/make" name="android_build" groups="pdk" remote="acme" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
