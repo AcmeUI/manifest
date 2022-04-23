@@ -38,6 +38,7 @@
   <project path="external/f2fs-tools" name="android_external_f2fs-tools" remote="acme" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="acme" />
   <project path="external/mksh" name="android_external_mksh" remote="acme" />
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="acme" />
   <project path="external/json-c" name="android_external_json-c" remote="acme" />
   <project path="external/selinux" name="android_external_selinux" remote="acme" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="acme" />
