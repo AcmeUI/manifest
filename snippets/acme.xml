@@ -53,6 +53,8 @@
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250-legacy/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250-legacy/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
@@ -62,6 +64,9 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="acme" revision="spring-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="acme" revision="spring-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom" remote="acme" revision="spring-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250-legacy/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="acme" revision="spring-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250-legacy/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="acme" revision="spring-caf-sm8250-legacy" />
+  <project path="hardware/qcom-caf/sm8250-legacy/media" name="android_hardware_qcom_media" groups="qcom" remote="acme" revision="spring-caf-sm8250" />
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="acme" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="acme" revision="spring-caf"/>
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="acme" />
