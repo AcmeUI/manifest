@@ -76,6 +76,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="acme" />
 
   <!-- packages repos -->
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="acme" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="acme" />
 
   <!-- prebuilts -->
