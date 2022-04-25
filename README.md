@@ -33,6 +33,7 @@ mka acme
 ```
 
 ## Credits
-- [LineageOS](https://github.com/LineageOS)
 - [ArrowOS](https://github.com/ArrowOS)
+- [LineageOS](https://github.com/LineageOS)
 - [Project-Kaleidoscope](https://github.com/Project-Kaleidoscope)
+- [ProtonAOSP](https://github.com/ProtonAOSP)
