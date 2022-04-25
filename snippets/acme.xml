@@ -45,6 +45,7 @@
 
   <!-- frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="acme" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="acme" />
 
   <!-- hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="acme" revision="spring-caf" />
