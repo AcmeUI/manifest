@@ -4,6 +4,8 @@
   <!-- Remotes -->
   <remote name="acme" fetch="https://github.com/AcmeUI" revision="spring" />
 
+  <remote name="acme-gitlab" fetch="https://gitlab.com/AcmeUI" revision="spring" />
+
   <project path="bionic" name="android_bionic" groups="pdk" remote="acme" />
 
   <!-- acme -->
@@ -98,6 +100,7 @@
   <!-- vendor repos -->
   <project path="vendor/acme" name="android_vendor_acme" remote="acme" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="acme" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="acme-gitlab" clone-depth="1" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="acme" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="acme" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="acme" />
