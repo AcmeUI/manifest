@@ -92,6 +92,7 @@
   <project path="prebuilts/tools-acme" name="android_prebuilts_tools-acme" remote="acme" />
 
   <!-- system repos -->
+  <project path="system/core" name="android_system_core" remote="acme" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="acme" />
 
   <!-- tools repos -->

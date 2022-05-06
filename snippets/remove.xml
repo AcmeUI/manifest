@@ -97,6 +97,7 @@
   <remove-project name="platform/packages/apps/Settings" />
 
   <!-- system -->
+  <remove-project name="platform/system/core" />
   <remove-project name="platform/system/sepolicy" />
 
 </manifest>
