@@ -4,6 +4,8 @@
   <!-- Remotes -->
   <remote name="acme" fetch="https://github.com/AcmeUI" revision="spring" />
 
+  <remote name="acme-devices" fetch="https://github.com/AcmeUI-Devices" revision="spring" />
+
   <remote name="acme-gitlab" fetch="https://gitlab.com/AcmeUI" revision="spring" />
 
   <project path="bionic" name="android_bionic" groups="pdk" remote="acme" />
@@ -28,6 +30,7 @@
 
   <!-- device -->
   <project path="device/acme/sepolicy" name="android_device_acme_sepolicy" remote="acme" />
+  <project path="device/google/cuttlefish" name="android_device_google_cuttlefish" remote="acme-devices" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="acme" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="acme" />
   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="acme" />
