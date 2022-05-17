@@ -35,5 +35,6 @@ mka acme
 ## Credits
 - [ArrowOS](https://github.com/ArrowOS)
 - [LineageOS](https://github.com/LineageOS)
+- [PixelExperience](https://github.com/PixelExperience)
 - [Project-Kaleidoscope](https://github.com/Project-Kaleidoscope)
 - [ProtonAOSP](https://github.com/ProtonAOSP)
