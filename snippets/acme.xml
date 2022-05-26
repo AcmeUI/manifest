@@ -83,7 +83,9 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="acme" />
+  <project path="system/security" name="android_system_security" remote="acme" />
   <project path="system/update_engine" name="android_system_update_engine" remote="acme" />
+  <project path="system/vold" name="android_system_vold" remote="acme" />
 
   <!-- packages repos -->
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="acme" />
