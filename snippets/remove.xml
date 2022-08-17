@@ -71,6 +71,7 @@
   <remove-project name="platform/external/tinycompress" />
 
   <!-- frameworks -->
+  <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/libs/net" />
 
   <!-- hardware -->
@@ -78,6 +79,10 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/wlan" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Nfc" />
+  <remove-project name="platform/packages/apps/Settings" />
 
   <!-- system -->
   <remove-project name="platform/system/bpf" />
