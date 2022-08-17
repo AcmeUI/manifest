@@ -76,4 +76,7 @@
   <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/wlan" />
 
+  <!-- system -->
+  <remove-project name="platform/system/bpf" />
+
 </manifest>
