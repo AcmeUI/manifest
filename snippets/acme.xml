@@ -72,6 +72,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="acme" />
 
   <!-- system -->
+  <project path="system/core" name="android_system_core" remote="acme" />
   <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="acme" />
 
   <!-- packages repos -->
