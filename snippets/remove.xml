@@ -70,6 +70,9 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- frameworks -->
+  <remove-project name="platform/frameworks/libs/net" />
+
   <!-- hardware -->
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
