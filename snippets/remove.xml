@@ -90,5 +90,6 @@
   <!-- system -->
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/update_engine" />
 
 </manifest>
