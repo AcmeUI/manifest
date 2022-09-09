@@ -65,6 +65,7 @@
 
   <!-- external -->
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/elfutils" />
   <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />
@@ -73,6 +74,7 @@
   <remove-project name="platform/external/jemalloc_new" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/zlib" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />
@@ -90,6 +92,9 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+
+  <!-- prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
 
   <!-- system -->
   <remove-project name="platform/system/core" />
