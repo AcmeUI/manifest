@@ -70,6 +70,7 @@
   <remove-project name="platform/external/exfatprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/lz4" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/selinux" />
