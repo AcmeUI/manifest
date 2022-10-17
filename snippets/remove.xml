@@ -85,7 +85,6 @@
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/libs/net" />
   <remove-project name="platform/frameworks/native" />
 
   <!-- hardware -->
@@ -102,7 +101,6 @@
 
   <!-- system -->
   <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/bpf" />
   <remove-project name="platform/system/update_engine" />
 
 </manifest>

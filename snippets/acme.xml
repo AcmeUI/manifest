@@ -51,8 +51,7 @@
   <!-- frameworks -->
   <project path="frameworks/base" name="android_frameworks_base" remote="acme" />
   <project path="frameworks/native" name="android_frameworks_native" remote="acme" />
-  <project path="frameworks/libs/net" name="android_frameworks_libs_net" groups="pdk-cw-fs,pdk-fs" remote="acme" />
-
+  
   <!-- hardware -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="acme" revision="taffy-caf" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="acme" >
@@ -84,7 +83,6 @@
 
   <!-- system -->
   <project path="system/core" name="android_system_core" remote="acme" />
-  <project path="system/bpf" name="android_system_bpf" groups="pdk" remote="acme" />
   <project path="system/update_engine" name="android_system_update_engine" remote="acme" />
 
   <!-- packages repos -->
