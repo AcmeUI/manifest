@@ -46,6 +46,7 @@
   <project path="external/json-c" name="android_external_json-c" remote="acme" />
   <project path="external/selinux" name="android_external_selinux" remote="acme" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="acme" />
+  <project path="external/xz" name="android_external_xz" remote="acme" />
   <project path="external/zlib-ng" name="android_external_zlib-ng" remote="acme" />
 
   <!-- frameworks -->
